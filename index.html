@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>City Info</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVRR7DmdaleEIyclKHSPZHOY3cAagAISM"></script>
+</head>
+<body>
+  <div class="container py-4">
+    <h1 class="text-center mb-4">Информация города</h1>
+    <div class="mb-3">
+      <input type="text" id="city" class="form-control" placeholder="Введите город">
+    </div>
+    <button id="get-info-btn" class="btn btn-primary w-100 mb-4">Искать информацию</button>
+
+    <div id="map" class="rounded border"></div>
+
+    <h2>Погода</h2>
+    <div id="weather" class="mb-4"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
